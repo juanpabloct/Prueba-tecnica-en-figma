@@ -49,7 +49,7 @@ h4 {
   font-size: 10px;
   font-family: "Poppins";
   top: 75%;
-  left: 13.8vw;
+  left: 60%;
   font-weight: 400;
 }
 .c-categorias {
@@ -74,5 +74,24 @@ h4 {
   .nombre {
     width: 30%;
     height: 1.5vh;
+  }
+}
+@media (max-width: 440px) {
+  .nombre-Usuario {
+    font-size: 20px;
+  }
+  .seccion {
+    font-size: 14px;
+  }
+  .cerrar {
+    font-size: 14px;
+  }
+  .boton {
+    font-size: 8px;
+  }
+}
+@media (max-width: 320px) {
+  .boton a {
+    left: 43%;
   }
 }
