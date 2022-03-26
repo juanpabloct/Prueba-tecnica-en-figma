@@ -78,16 +78,16 @@ h4 {
 }
 @media (max-width: 440px) {
   .nombre-Usuario {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .seccion {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .cerrar {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .boton {
-    font-size: 8px;
+    font-size: 8px !important;
   }
 }
 @media (max-width: 320px) {
