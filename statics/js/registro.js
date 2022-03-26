@@ -4,7 +4,7 @@ const formulario = document.querySelector(".formulario");
 natural.addEventListener("click", () => {
   if (natural.checked) {
     const formularioCompleto = `        
-    <div class="ml-2 form-group w-100">
+    <div class="form-group w-100">
       <label for="">Nombre</label></br>
         <input type="text" class="form-control "/>
       <label for="">Apellido</label></br>
@@ -57,7 +57,7 @@ natural.addEventListener("click", () => {
 juridica.addEventListener("click", () => {
   if (juridica.checked) {
     const formularioCompleto = `
-    <div class="ml-2 form-group w-100">
+    <div class=" form-group w-100">
       <label for="">Razón social</label></br>
         <input type="text" class="form-control "/>
       <label for="">NIT</label></br>

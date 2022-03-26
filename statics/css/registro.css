@@ -134,7 +134,7 @@
 .showPassword,
 .r-showPassword {
   top: 38px;
-  right: 4vh;
+  right: 10px;
 }
 
 /*footer*/
@@ -220,6 +220,12 @@
 }
 .registrar {
   background: #e487fb;
+}
+#button {
+  background: #e487fb;
+  border-radius: 7px;
+  width: 100%;
+  color: #000;
 }
 @media (max-height: 452px) {
   .contenedor-1 {

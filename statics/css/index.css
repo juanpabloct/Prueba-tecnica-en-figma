@@ -54,6 +54,14 @@ a {
       rgba(0, 0, 0, 1) 100%
     );
   }
+  .showPassword {
+    left: 91% !important;
+  }
+}
+@media (max-width: 320px) {
+  .showPassword {
+    left: 87% !important;
+  }
 }
 
 /* slider*/
@@ -160,19 +168,19 @@ label {
   color: #e487fb !important;
   position: relative;
   letter-spacing: -0.103101px;
-  left: 55%;
 }
 #button {
   background: #e487fb;
   border-radius: 7px;
-  width: 68%;
+  width: 100%;
+  color: #000 !important;
 }
 .a-button {
   text-decoration: none !important;
 }
 .showPassword {
   position: absolute;
-  left: 85%;
+  left: 90%;
   top: 44px;
 }
 input:hover {

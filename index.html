@@ -51,25 +51,27 @@
                 <img src="../statics/img/letraschinas.png" alt="" />
                 <p>¡Hola, te extrañamos!</p>
               </div>
-              <div class="form w-100">
-                <form action="">
-                  <div>
+              <div
+                class="form w-100 d-flex align-items-center justify-content-center"
+              >
+                <form action="" class="w-75">
+                  <div class="w-100">
                     <label for="email">Email</label><br />
                     <input
                       type="email"
                       name="email"
-                      class="mb-0 rounded d-md-block w-100"
+                      class="mb-1 rounded d-md-block col-12"
                       id="email"
                       placeholder="usuario@"
                     />
                     <p class="isValid"></p>
                   </div>
-                  <div class="contenedor-contraseña">
+                  <div class="contenedor-contraseña w-100">
                     <label for="contraseña">contraseña</label><br />
                     <input
                       type="password"
                       name="contraseña"
-                      class="mb-1 rounded d-md-block w-100"
+                      class="mb-1 rounded d-md-block col-12"
                       id="contraseña"
                     />
                     <img
@@ -78,16 +80,14 @@
                       class="showPassword"
                     />
                     <a href="">¿olvido la contraseña?</a>
+                    <div class="w-100">
+                      <a href="./templates/inicio.html" class="a-button"
+                        ><div class="d-md-block col-12 btn" id="button">
+                          Acceder
+                        </div></a
+                      >
+                    </div>
                   </div>
-                  <a href="./templates/inicio.html" class="a-button"
-                    ><button
-                      class="d-md-block w-100 btn"
-                      type="button"
-                      id="button"
-                    >
-                      Acceder
-                    </button></a
-                  >
                 </form>
               </div>
             </div>
