@@ -1,0 +1,266 @@
+:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+a {
+  color: #000 !important;
+}
+/*Boton de atras*/
+
+.atras .linea {
+  width: 3%;
+  height: auto;
+}
+.atras .flecha {
+  width: 20%;
+}
+/*contenido*/
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+/*Logo esquina superior izquierda*/
+.logo {
+  display: flex;
+  left: 3%;
+  top: 2%;
+}
+.image-1 {
+  width: 3vw;
+}
+.image-2 {
+  width: 9vw;
+}
+
+/*contenedor de formulario de ingreso*/
+.login {
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.acciones {
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .login {
+    background: rgb(153, 42, 180);
+    background: linear-gradient(
+      180deg,
+      rgba(153, 42, 180, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+}
+
+/* slider*/
+.slide {
+  background-color: #3e1149;
+  height: 100vh;
+}
+/* circulo de slider con imagen*/
+.circulo {
+  width: 250px;
+  height: 250px;
+  background-color: #e487fb;
+  border-radius: 50%;
+}
+/* contenedor de imagen del slider*/
+.container-img {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+/* imagen del slider*/
+.image {
+  width: 94%;
+  height: 100%;
+  position: relative;
+  transform: scale(1.1);
+  left: 8%;
+  top: 22%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 60%;
+}
+.texto {
+  color: white;
+  font-size: 11px;
+  margin: auto;
+  width: 58%;
+}
+.texto img {
+  width: 100%;
+}
+
+.width-component {
+  width: 100%;
+}
+.parrafo {
+  position: relative;
+  left: 9%;
+  top: 26px;
+}
+label {
+  color: #ffff;
+}
+.form {
+  top: 25%;
+}
+.contenedor-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7vh;
+  position: relative;
+}
+.contenedor-2 .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.images img {
+  width: 50%;
+}
+.images p {
+  color: aliceblue;
+  font-size: 12px;
+}
+#email,
+#contraseña {
+  background-color: rgba(255, 255, 255, 0.47);
+  border: 1.5px solid #ad3c40;
+  color: #fff;
+  height: 34px;
+}
+#email {
+  border-color: #ad3c40;
+}
+.isValid {
+  color: #ad3c40;
+}
+#contraseña {
+  border-color: #ffff;
+}
+.contenedor-contraseña {
+  position: relative;
+  margin-bottom: 5%;
+}
+.contenedor-contraseña a {
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #e487fb !important;
+  position: relative;
+  letter-spacing: -0.103101px;
+  left: 55%;
+}
+#button {
+  background: #e487fb;
+  border-radius: 7px;
+  width: 68%;
+}
+.a-button {
+  text-decoration: none !important;
+}
+.showPassword {
+  position: absolute;
+  left: 85%;
+  top: 44px;
+}
+input:hover {
+  border-color: aqua !important;
+}
+
+/*footer*/
+.footer {
+  color: #fff;
+}
+.footer .text {
+  font-size: 10px;
+}
+.footer span {
+  font-size: 20px;
+}
+.linea {
+  letter-spacing: -2.5px;
+}
+/*Contenedor de los logos de las apps */
+.apps {
+  display: flex;
+  flex-direction: row;
+  width: 186px;
+  justify-content: space-between;
+}
+/*Logo facebook*/
+.logoFacebook {
+  font-size: 30px;
+  border: solid white 2px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/*Logo twiter*/
+.twiter img {
+  width: 70%;
+  height: 20px;
+}
+
+/* instagram */
+.instagram .instagram-container {
+  border: solid #fff 1.5px;
+  width: 70%;
+  border-radius: 5px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.instagram-container .dos {
+  border-radius: 100%;
+  border: solid white 2.5px;
+  width: 64%;
+  height: 70%;
+}
+.uno .tres {
+  border: solid #fff 1px;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  position: absolute;
+  top: 9%;
+  left: 80%;
+  background: #fff;
+}
+.twiter,
+.logoFacebook,
+.instagram {
+  border: solid white 2px;
+  background: #6c757d;
+  border-radius: 8px;
+  width: 43px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* instagram */
+.place-registion {
+  margin-top: 20px;
+  font-size: 10px;
+}
+.registro {
+  color: #fff;
+}
+.registro-color {
+  color: rgb(149 89 164);
+}
