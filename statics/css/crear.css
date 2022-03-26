@@ -1,0 +1,76 @@
+.menu {
+  background-color: #3e1149;
+}
+.inicio {
+  background-color: black;
+}
+.logo {
+  width: 20%;
+}
+.nombre {
+  width: 56%;
+  height: 3vh;
+}
+.contenedor {
+  height: 100vh;
+}
+a,
+h4,
+li,
+span,
+label {
+  color: white !important;
+  font-family: "Poppins";
+}
+h4 {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.form-control {
+  background-color: #787878 !important;
+  color: #fff !important;
+}
+.actualizador {
+  width: 343px;
+  height: 60px;
+}
+.nombre-Usuario {
+  font-size: 36px;
+  line-height: 54px;
+}
+.sesion {
+  color: black !important;
+}
+.c-categoria {
+  width: 100%;
+}
+.boton {
+  background-color: #e487fb;
+  width: 338px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+@media (max-width: 620px) {
+  .nombre-Usuario {
+    font-size: 26px;
+  }
+  .seccion {
+    font-size: 20px;
+  }
+  .cerrar {
+    font-size: 20px;
+  }
+  .boton {
+    font-size: 12px;
+  }
+  .logo {
+    width: 20%;
+  }
+  .nombre {
+    width: 30%;
+    height: 1.5vh;
+  }
+}

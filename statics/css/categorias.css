@@ -1,0 +1,78 @@
+.menu {
+  background-color: #3e1149;
+}
+.inicio {
+  background-color: black;
+}
+.logo {
+  width: 20%;
+}
+.nombre {
+  width: 56%;
+  height: 3vh;
+}
+.contenedor {
+  height: 100vh;
+}
+a,
+h4,
+li,
+span {
+  color: white !important;
+}
+h4 {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.nombre-Usuario {
+  font-size: 36px;
+  line-height: 54px;
+}
+.sesion {
+  color: black !important;
+}
+.boton {
+  width: 446px;
+  height: 124px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.103101px;
+  background-color: #3e1149;
+  color: white !important;
+  border-radius: 5px;
+}
+.boton a {
+  font-size: 10px;
+  font-family: "Poppins";
+  top: 75%;
+  left: 13.8vw;
+  font-weight: 400;
+}
+.c-categorias {
+  width: 90%;
+}
+@media (max-width: 620px) {
+  .nombre-Usuario {
+    font-size: 26px;
+  }
+  .seccion {
+    font-size: 20px;
+  }
+  .cerrar {
+    font-size: 20px;
+  }
+  .boton {
+    font-size: 12px;
+  }
+  .logo {
+    width: 20%;
+  }
+  .nombre {
+    width: 30%;
+    height: 1.5vh;
+  }
+}

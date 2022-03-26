@@ -1,0 +1,248 @@
+/*contenido*/
+
+@media (max-width: 768px) {
+  .contenedor-1 {
+    background: rgb(152, 42, 179);
+    background: linear-gradient(
+      180deg,
+      rgba(152, 42, 179, 1) 0%,
+      rgba(6, 2, 7, 1) 100%
+    );
+  }
+}
+
+/* slider*/
+.slide {
+  background-color: #3e1149;
+}
+/*Boton de atras*/
+
+.atras .linea {
+  width: 3%;
+  height: auto;
+}
+.atras .flecha {
+  width: 20%;
+}
+/* circulo de slider con imagen*/
+.circulo {
+  width: 250px;
+  height: 250px;
+  background-color: #e487fb;
+  border-radius: 50%;
+}
+/* contenedor de imagen del slider*/
+.container-img {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+/* imagen del slider*/
+.image {
+  width: 94%;
+  height: 100%;
+  position: relative;
+  transform: scale(1.1);
+  left: 8%;
+  top: 22%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.texto {
+  color: white;
+  font-size: 11px;
+  margin: auto;
+  width: 58%;
+}
+.texto img {
+  width: 100%;
+}
+
+.parrafo {
+  position: relative;
+  left: 9%;
+  top: 26px;
+}
+
+/*logos*/
+.logo-esquinero {
+  width: 30%;
+}
+.logo-esquinero .image-1 {
+  width: 15%;
+}
+.logo-esquinero .image-2 {
+  width: 50%;
+}
+.contenedor-logos {
+  width: 100%;
+}
+.c-centrada span {
+  color: white;
+}
+.letra-china {
+  width: 106px;
+}
+/*-----------*/
+.logo {
+  width: 80px;
+  height: auto;
+  position: relative;
+  top: -10%;
+}
+/*formulario*/
+
+.contenedor-1 {
+  background-color: black;
+  height: auto;
+}
+.tipo-de-persona label {
+  color: #bababa;
+  font-size: 14px;
+}
+.form-group input {
+  height: 27px;
+  background-color: #787878;
+  color: #fff;
+  border: solid #fff 1.5px;
+}
+.form-group input:focus {
+  color: #fff;
+  background-color: #787878;
+}
+.form-group input:hover {
+  border-color: blue;
+  background-color: #787878;
+}
+.form-group input {
+  height: 27px;
+}
+.form-group input::placeholder {
+  color: #fff;
+}
+
+.form-group label {
+  color: white;
+}
+
+/* Mostrar contraseña*/
+.showPassword,
+.r-showPassword {
+  top: 38px;
+  right: 4vh;
+}
+
+/*footer*/
+.footer {
+  color: #fff;
+}
+.footer .text {
+  font-size: 10px;
+}
+.footer span {
+  font-size: 20px;
+}
+.linea {
+  letter-spacing: -2.5px;
+}
+/*Contenedor de los logos de las apps */
+.apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*Logo facebook*/
+.logoFacebook {
+  font-size: 30px;
+  border: solid white 2px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/*Logo twiter*/
+.twiter img {
+  width: 70%;
+  height: 20px;
+}
+
+/* instagram */
+.instagram .instagram-container {
+  border: solid #fff 1.5px;
+  width: 70%;
+  border-radius: 5px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.instagram-container .dos {
+  border-radius: 100%;
+  border: solid white 2.5px;
+  width: 64%;
+  height: 70%;
+}
+.uno .tres {
+  border: solid #fff 1px;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  position: absolute;
+  top: 9%;
+  left: 80%;
+  background: #fff;
+}
+.twiter,
+.logoFacebook,
+.instagram {
+  border: solid white 2px;
+  background: #6c757d;
+  border-radius: 8px;
+  width: 43px;
+  height: 37px;
+}
+
+/* instagram */
+.place-registion {
+  margin-top: 20px;
+  font-size: 10px;
+}
+.registro {
+  color: #fff;
+}
+.registro-color {
+  color: rgb(149 89 164);
+}
+.registrar {
+  background: #e487fb;
+}
+@media (max-height: 452px) {
+  .contenedor-1 {
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .tipo-de-persona label {
+    font-size: 11px;
+  }
+  .c-centrada span {
+    font-size: 14px;
+  }
+  .logo {
+    width: 60px;
+  }
+}
+@media (max-width: 300px) {
+  .contenedor-logos span {
+    font-size: 12px;
+  }
+  .logo {
+    width: 70px;
+  }
+}
