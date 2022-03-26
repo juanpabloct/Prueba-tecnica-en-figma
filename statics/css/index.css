@@ -54,8 +54,8 @@ a {
       rgba(0, 0, 0, 1) 100%
     );
   }
-  .showPassword {
-    left: 91% !important;
+  .showPassw5ord {
+    left: 88% !important;
   }
 }
 @media (max-width: 320px) {
@@ -180,7 +180,7 @@ label {
 }
 .showPassword {
   position: absolute;
-  left: 90%;
+  left: 87%;
   top: 44px;
 }
 input:hover {
