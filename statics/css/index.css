@@ -128,11 +128,11 @@ label {
   align-items: center;
 }
 .images img {
-  width: 50%;
+  width: 45%;
 }
 .images p {
   color: aliceblue;
-  font-size: 12px;
+  font-size: 11px;
 }
 #email,
 #contraseña {
@@ -196,7 +196,7 @@ input:hover {
 .apps {
   display: flex;
   flex-direction: row;
-  width: 186px;
+  width: 170px;
   justify-content: space-between;
 }
 /*Logo facebook*/
